@@ -1,0 +1,10 @@
+{
+  "courseType": "classroom",
+  "description": "This course allows students to experience and develop for augmented and virtual reality, using 360 degree cameras, HTC Vive, Oculus Go, Microsoft Hololens, and Apple’s AR Kit. Being able to develop VR and AR experiences gives each student cutting edge knowledge in an industry in need of talented staff. The average starting salary for a developer in this field is $75,000 a year. Learning in this field allows students to build technical literacy and express creativity in an immersive engaging computer aided design field.",
+  "id": "CTE81100",
+  "slug": "http://tinyurl.com/ICclass1920",
+  "instructorIds": [
+    "3133590"
+  ],
+  "name": "Developing Augmented & Virtual Experiences: CTE 81100: Fall & Spring"
+}

@@ -1,0 +1,10 @@
+{
+  "courseType": "classroom",
+  "description": "A+ Software is the second of two classes, preparing students to take the CompTIA A+ Certification, the most widely recognized certification in the Information Technology industry. Students will understand a wide variety of issues ranging from networking and operating systems to cybersecurity. This class is intended for those who have extensive computer experience across multiple OSes, and those who have passed IT Fundamentals.",
+  "id": "CTE83122",
+  "slug": "http://tinyurl.com/ICclass1920",
+  "instructorIds": [
+    "3133590"
+  ],
+  "name": "CompTIA A+ Software: CTE83122: Spring 2020"
+}

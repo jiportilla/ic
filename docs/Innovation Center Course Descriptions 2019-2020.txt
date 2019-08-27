@@ -1,0 +1,132 @@
+﻿http://tinyurl.com/ICclass1920                    Innovation Center Course Catalog 2019-2020
+
+
+The Innovation Center is the next step in public education. We provide opportunities to experiment with extraordinary ideas, technologies, and projects to solve real-world problems. We are a catalyst, incubator, and bridge between education, industry, and our community.
+for any questions email ingram_thom@svvsd.org 
+
+
+Courses: Apple Certifications, BioTech, Broadcast Studio Operation, Business Operations, AR/VR Development, Coding, CompTIA Technical Support, Cyber Security, P-Teach, Robotics, UAS & UAV Flight Training
+---
+Apple Certified Mac & iOS Technician: CTE83110: Summer, Fall, & Spring
+* Open to all 11-12th graders (and exceptional 9th & 10th graders with prior Apple product knowledge)
+* Students who pass the class will pay for their own certification test - $60
+* Fall & Spring Semesters
+
+
+ACMiT is designed for students who have experience with Apple devices computers; offering the same curriculum used to train Geniuses in Apple Stores. Those who succeed in this class will be prepared to take the Service Fundamentals, ACMT & ACiT certification tests. Students passing these official Apple certifications will be eligible to work on the Innovation Center Tech Team. Graduating certified students will work with Apple representatives to find placement in tech jobs at Apple and on college campuses.
+---
+Applied Robotics: CTE83202: Fall 2019
+* Open to all 9-12th graders (No prerequisites)
+* $20 Course Fee
+
+
+Native fish species in Colorado are under threat due to habitat modification, altered stream flow and invasive species. You will work together with experts like Dr. Mikki McComb-Kobza of Ocean First Institute, learning how to apply innovations in the field of robotics, such as remote sensing and robotic vision. You will help scientists restore ecosystem, reintroduce, and monitor native fish species. 
+
+
+All students are welcome to enroll.  The main requirement is a strong interest in learning about local conservation and exploring ways robotics can be used to solve environmental challenges. Email  reitzig_axel@svvsd.org with questions
+--
+Advanced Robotics: CTE83204: Spring 2019
+* Open to all 9-12th graders (No prerequisites)
+* $20 Course Fee
+
+
+This class prepares students to compete against other high school, community college and university teams from around the country and world in the 2020 MATE Underwater Robotics Competition. Our team will design, build, and test an underwater drone, and will also develop a marketing approach to sell our product.  You will learn and apply engineering skills like computer-aided design, fabrication, electronics, programming and principles of aquatic physics. We will at a minimum participate in one regional competition in the US; if we qualify, we will travel to Monterrey, California in June 2020 to compete in the 2020 MATE International Competition.
+
+
+Any student is welcome to enroll.  The main requirement is a strong interest in learning something new, a firm commitment to the team, and committing to participating in the International competition in June if the team qualifies.  Fundraising will be required in order to travel to events and acquire some of the course materials. Email  reitzig_axel@svvsd.org with questions
+--
+BUS102 Entrepreneurial Operations: CTE80100 - Fall & Spring
+* One Semester Elective - 0.5 Credit - Open to all 11th and 12th graders (10th grade students encouraged and 10th graders seeking FRCC credit only with prior instructor approval)
+* Instructor - Jeffrey Lund - lund_jeffrey@svvsd.org
+* Concurrent Enrollment with FRCC as BUS102 Entrepreneurial Operations
+
+
+This course inspires and engages students with perseverance and determination of an entrepreneurial mindset needed to succeed in business, life and academics. It covers major aspects of small business management to enable the entrepreneur to successfully begin their own business. This course provides the basic concepts of marketing, principles of management and finance needed to manage a small business. This course provides for experiential learning beyond the classroom, making connections, understanding business concepts, and building relationships that support the student throughout college and careers.
+--
+CompTIA: IT Fundamentals: CTE83120: Summer 2019
+* Open to all 9-12th graders (No prerequisites)
+* Students who pass the class will pay for their own certification test - $90
+
+
+IT Fundamentals introduces students to the Information Technology field; including computer hardware & software support, customer service, networking, security, and computer design. This class is a precursor to CompTIA A+, and is intended for beginners with very little computer knowledge. Students who succeed in this class will be ready to take the CompTIA IT Fundamentals certification.
+---
+CompTIA A+ Hardware: CTE83121: Fall 2019
+* Open to 10-12th graders (and all students who have passed IT Fundamentals)
+* Students who pass this class will pay for their own certification test - $90
+
+
+A+ Hardware is the first of two classes, preparing students to take the CompTIA A+ Certification, the most widely recognized certification in the Information Technology industry. Students will understand a wide variety of issues ranging from desktops, to laptops, to mobile devices. This class is intended for those who already have extensive computer experience across multiple platforms, and those who have passed IT Fundamentals.
+--
+CompTIA A+ Software: CTE83122: Spring 2020
+* Open to 10-12th graders (and all students who have passed IT Fundamentals)
+* Students who pass this class will pay for their own certification test - $90
+
+
+A+ Software is the second of two classes, preparing students to take the CompTIA A+ Certification, the most widely recognized certification in the Information Technology industry. Students will understand a wide variety of issues ranging from networking and operating systems to cybersecurity. This class is intended for those who have extensive computer experience across multiple OSes, and those who have passed IT Fundamentals.
+--
+Developing Augmented & Virtual Experiences: CTE 81100: Fall & Spring
+* Open to all 9-12th graders (No prerequisites)
+* Fall & Spring
+
+
+This course allows students to experience and develop for augmented and virtual reality, using 360 degree cameras, HTC Vive, Oculus Go, Microsoft Hololens, and Apple’s AR Kit. Being able to develop VR and AR experiences gives each student cutting edge knowledge in an industry in need of talented staff. The average starting salary for a developer in this field is $75,000 a year. Learning in this field allows students to build technical literacy and express creativity in an immersive engaging computer aided design field.
+---
+Intro to App Development with Swift: CS110: Summer & Fall 2019
+* Open to all 9-12th graders (No prerequisites)
+
+
+This course is designed to help students build a solid foundation in programming fundamentals using Swift as the language. You’ll get practical experience with the tools, techniques, and concepts needed to build a basic iOS app from scratch. You’ll also learn user interface design principles. Prior programming experience is not required for this course.
+--
+Intro to Biotechnology: CTE85115: Fall & Spring
+* Open to all 11-12th graders (Prerequisites: High school Biology, Chemistry & Algebra 2)
+
+
+This course starts students on the path for careers in cloning, forensics, and saving the world from disease and famine. Biotech is an integrated science where students learn and apply biology, chemistry, physics, and mathematics, in preparation for working in the fastest growing industry in the nation. This class also prepares students for higher level courses, such as AP Biology and AP Chemistry.
+--
+Intro to Cyber Security: CTE80120: Fall & Spring
+* Open to all 10-12th graders (No prerequisites)
+* Students who succeed in the class will pay for their own certification test - $130
+
+
+This course, designed by a student at Silver Creek High School, teaches basic security needs for personal and small businesses technology. Intro to Cyber Security is designed to teach students to evaluate and understanding security needs, including: cyber threats, network security, intrusion detection, cryptography, artificial intelligence, and recovery. Students will understand how to defend online databases and keep information secure. Students who do well in this class will be given the opportunity to become Microsoft Security Fundamentals certified.
+--
+TriCaster Certification Program: CTE 82100: Fall & Spring
+* One Semester Elective - 0.5 Credit - Open to all 9 -12th graders 
+* Students who pass the class will pay for their own certification test - $150
+
+
+Becoming a NewTek TriCaster Certified Operator is one skill that can help students work within the studio and television world. The course focuses on benefits of certification including get hired for better jobs, and being recognized by broadcast industry professionals, and becoming qualified to teach TriCaster Skills to others. Students will engage in operating a TriCaster system within a studio environment to include understanding of audio, video and lighting concepts. Learn the live television and production environment. Successful students in this course will be ready to take the TriCaster certification test.
+--
+P-Teach: Language, Power, & Identity: PS474: Fall 2019
+* One Semester Elective - 0.5 Credit
+This course explores the relationship between language, identity, and power in various international contexts. The course considers how legacies of inequality for particular communities are reflected in societal attitudes about languages and language users and subsequent language planning. For questions please email: howenstein_wendy@svvsd.org 
+
+
+P-Teach: Intro to Special Education: PS475: Fall 2019
+* One Semester Elective - 0.5 Credit
+This course is designed to provide a basic introduction to special education and the needs of students who have disabilities. It includes introductory material regarding legal and historical foundations of special education, human growth and development, the nature of disabilities, and an introduction to the basic human needs that must be addressed. For questions please email: howenstein_wendy@svvsd.org 
+
+
+P-Teach: Child Development: PS471: Spring 2020
+* One Semester Elective - 0.5 Credit
+This course focuses on the study of human growth, development and ecology from conception to adolescence. The emphasis is on the major theories of child growth and development and the implications of current research findings to better understand child development. For questions please email: howenstein_wendy@svvsd.org 
+
+
+P-Teach: Child Guidance: PS472: Spring 2020
+* One Semester Elective - 0.5 Credit
+This course explores and applies classroom strategies to promote social competence, build classroom community and facilitate emotional regulation.  An emphasis is on understanding development within group contexts, observing children’s behavior and engaging with families to make decisions about learning. For questions please email: howenstein_wendy@svvsd.org 
+
+
+UAS Flight Concepts & Training: CTE83150: Fall 2019
+* Open to all 10-12th graders (No prerequisites)
+
+
+AVT 155 - Introduces and develops flight control and piloting techniques for common Unmanned Aerial System (UAS) platforms. Students learn and demonstrate maneuvers, procedures, and best practices for safe UAS operation on fixed wing and rotary wing systems. Develops the skills and knowledge required to be a pilot of a UAS in the National Airspace System. Students who are new to aviation will develop functional knowledge in the areas of pilot-in-command responsibilities, aerodynamic principles, aviation meteorology, and the flight environment. 
+--
+UAV Engineering and Design: CTE83155: Spring 2020
+* Open to all 10-12th graders (Ideally finishing UAS Flight Concepts & Training first)
+Utilizing the industry standard Aircraft Design Cycle and fabrication laboratory equipment, students will have the opportunity to engineer and design a UAV recreational and commercial fixed wing and multirotor aircraft to solve a real world problem.
+--
+STEM Co-Op: CTE130: Fall & Spring
+* Open to student with prior approval of their instructor ONLY
+This course is an opportunity for students to create a self-directed project based on previous STEM experiences. Interested students will coordinate with the specific IC instructor in their chosen focus area to complete a project proposal and decide on what block within the day to schedule their co-op. Students will complete 50 contact hours of work during the semester. It is assumed that a student approved for Co-Op has sufficient maturity and motivation to individually pursue and complete a self-initiated study with minimal supervision.

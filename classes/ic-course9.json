@@ -1,0 +1,10 @@
+{
+  "courseType": "classroom",
+  "description": "This course is designed to help students build a solid foundation in programming fundamentals using Swift as the language. You’ll get practical experience with the tools, techniques, and concepts needed to build a basic iOS app from scratch. You’ll also learn user interface design principles. Prior programming experience is not required for this course.",
+  "id": "CS110",
+  "slug": "http://tinyurl.com/ICclass1920",
+  "instructorIds": [
+    "3133590"
+  ],
+  "name": "Intro to App Development with Swift: CS110: Summer & Fall 2019"
+}
