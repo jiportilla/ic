@@ -7,8 +7,9 @@ I am an author and keynote speaker, I am recognized for my innovative work in da
 
 You can connect with me here: [LinkedIn](https://www.linkedin.com/in/ivanportilla/)
 
+My recent [contributions](https://github.com/jiportilla/giveback)
 
-My work with the St.Vrain Valley School District [Innovation Center](http://innovation.svvsd.org/)
+My work with the St.Vrain Valley Schools District [Innovation Center](http://innovation.svvsd.org/)
 
 <br>
 
