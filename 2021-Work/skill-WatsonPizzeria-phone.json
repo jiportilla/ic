@@ -152,21 +152,6 @@
       "fuzzy_match": true
     },
     {
-      "entity": "extra_confirmed",
-      "values": [
-        {
-          "type": "synonyms",
-          "value": "no",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "yes",
-          "synonyms": []
-        }
-      ]
-    },
-    {
       "entity": "location",
       "values": [
         {
@@ -202,6 +187,22 @@
           "value": "Longmont",
           "synonyms": [
             "longmont"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "negative",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "incorrect",
+            "No",
+            "nope",
+            "not"
           ]
         }
       ],
@@ -335,6 +336,27 @@
           ]
         }
       ]
+    },
+    {
+      "entity": "positive",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "alright",
+            "correct",
+            "ok",
+            "okay",
+            "oui",
+            "right",
+            "si",
+            "yeah",
+            "Yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
     },
     {
       "entity": "state",
@@ -592,6 +614,29 @@
       "previous_sibling": "node_8_1614993418287"
     },
     {
+      "type": "standard",
+      "title": "confirm-address",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfect, we will send the pizza to $client-address"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1615733843062",
+      "context": {
+        "client-address": "1234 Main Street"
+      },
+      "conditions": "@positive",
+      "dialog_node": "node_1_1615734120431"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -658,7 +703,7 @@
       "conditions": "@state || @location",
       "digress_in": "does_not_return",
       "dialog_node": "node_4_1614472811231",
-      "previous_sibling": "Welcome"
+      "previous_sibling": "node_7_1615733511857"
     },
     {
       "type": "folder",
@@ -719,6 +764,35 @@
       "dialog_node": "node_7_1614992548668"
     },
     {
+      "type": "standard",
+      "title": "address-by-phone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you, let me look up your address ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "saved-phone": 1234,
+        "caller-phone": "@sys-number"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1615733843062"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_7_1615733511857",
+      "previous_sibling": "Welcome"
+    },
+    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -752,6 +826,26 @@
       "conditions": "@Discounts",
       "dialog_node": "node_8_1614993418287",
       "previous_sibling": "node_7_1614992548668"
+    },
+    {
+      "type": "standard",
+      "title": "look-up-address",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " At this phone number: $caller-phone <? $caller-phone == $saved-phone ? ', your address is 1234 Main Street, correct? ' :  '- sorry, your address is not in our system, what would you like to order today' ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1615733511857",
+      "conditions": "$caller-phone",
+      "dialog_node": "node_9_1615733843062"
     },
     {
       "type": "frame",
@@ -953,7 +1047,7 @@
       "output": {
         "text": {
           "values": [
-            "Welcome to Pizza Topping  Basic demonstration, you can order a pizza out of few selected types and sizes and add selected toppings. Please tell enter your discount coupon."
+            "Welcome to Pizza Topping  Basic demonstration, you can order a pizza out of few selected types and sizes and add selected toppings. Please tell enter the last four digits of your phone number."
           ],
           "selection_policy": "sequential"
         }
