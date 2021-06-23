@@ -1,0 +1,38 @@
+"help me, talk to human",escalate
+let me talk to a human,escalate
+speak with a human,escalate
+talk to a manager,escalate
+talk to a person,escalate
+talk to human,escalate
+cancel,exit
+exit,exit
+get me out,exit
+get me out of here,exit
+I'm done,exit
+no,exit
+help,help
+help please,help
+I don't understand,help
+What can I do,help
+I'd like a pizza,order
+I want to order a large pizza,order
+I want to order a pizza,order
+order,order
+"soo hungry, about a pizza",order
+za,order
+"Can I get a pizza margherita, small please",order
+I am hungry,order
+reset,reset
+start again,reset
+begin,reset
+delete the inputs,reset
+what toppings do you have,toppings_list
+bacon please,toppings_list
+bananas covered with chocolate,toppings_list
+do you have pepperoni?,toppings_list
+do you have toppings,toppings_list
+I want some pineapple,toppings_list
+list of toppings,toppings_list
+please list all the toppings,toppings_list
+tell me the toppings,toppings_list
+vegan sausage,toppings_list
