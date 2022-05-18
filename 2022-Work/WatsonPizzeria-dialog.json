@@ -1,0 +1,1008 @@
+{
+  "intents": [
+    {
+      "intent": "exit",
+      "examples": [
+        {
+          "text": "cancel"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "get me out"
+        },
+        {
+          "text": "get me out of here"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "no"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "help"
+        },
+        {
+          "text": "help please"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "What can I do"
+        }
+      ]
+    },
+    {
+      "intent": "order",
+      "examples": [
+        {
+          "text": "Can I get a pizza margherita, small please"
+        },
+        {
+          "text": "I am hungry"
+        },
+        {
+          "text": "I'd like a pizza"
+        },
+        {
+          "text": "I want to order a large pizza"
+        },
+        {
+          "text": "I want to order a pizza"
+        },
+        {
+          "text": "order"
+        },
+        {
+          "text": "za"
+        }
+      ]
+    },
+    {
+      "intent": "payment_type",
+      "examples": [
+        {
+          "text": "can i pay by check"
+        },
+        {
+          "text": "can I pay with credit card"
+        },
+        {
+          "text": "can I use my buffone card"
+        },
+        {
+          "text": "do you take cash"
+        },
+        {
+          "text": "do you take checks"
+        },
+        {
+          "text": "do you take debit cards"
+        },
+        {
+          "text": "what type of payment do you accept"
+        }
+      ],
+      "description": "types of payments"
+    },
+    {
+      "intent": "reset",
+      "examples": [
+        {
+          "text": "begin"
+        },
+        {
+          "text": "delete the inputs"
+        },
+        {
+          "text": "reset"
+        },
+        {
+          "text": "start again"
+        }
+      ]
+    },
+    {
+      "intent": "working_hours",
+      "examples": [
+        {
+          "text": "are you open right now"
+        },
+        {
+          "text": "are you working now"
+        },
+        {
+          "text": "is it open"
+        },
+        {
+          "text": "is your pizzeria open"
+        },
+        {
+          "text": "what are your hours"
+        }
+      ],
+      "description": "Pizzeria work hours"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "extra_confirmed",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "locations",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alfred",
+          "synonyms": [
+            "alfred packer grill"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C4C",
+          "synonyms": [
+            "center for community"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sewall",
+          "synonyms": [
+            "sewall dining",
+            "sewall dining hall"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UMC",
+          "synonyms": [
+            "university memorial center"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "village",
+          "synonyms": [
+            "village center"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "names",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ivan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "john",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mary",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "payment",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "buffone card",
+          "synonyms": [
+            "buffone"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cash",
+          "synonyms": [
+            "money"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "checks",
+          "synonyms": [
+            "personal check"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "credit card",
+          "synonyms": [
+            "cc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "debit",
+          "synonyms": [
+            "debit card"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pizza_place",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "go",
+          "synonyms": [
+            "home",
+            "take",
+            "take out"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stay",
+          "synonyms": [
+            "dine in",
+            "eat in",
+            "eat there",
+            "restaurant"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "pizza_size",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "large",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "medium",
+          "synonyms": [
+            "regular"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "small",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "pizza_toppings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anchovies",
+          "synonyms": [
+            "anchovy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mushrooms",
+          "synonyms": [
+            "mushroom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "olive",
+          "synonyms": [
+            "olives"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "onion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pepperoni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salami",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sausage",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "pizza_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cheese",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "margherita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "quatro formaggi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vegetarian",
+          "synonyms": [
+            "vegetariana"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 6,
+        "entities": 7,
+        "dialog_nodes": 34
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Fallback",
+      "output": {
+        "text": {
+          "values": [
+            "You can order a small, medium or large pizza. Types are Cheese, and you can add more ingredients, margherita, quatro formaggi, and vegetarian.",
+            "If  you want to start with cheese, you can add ingredients.  We offer pepperoni, sausage, ham, olive, onion, anchovies, mushrooms, or salami"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "not_available",
+      "dialog_node": "Fallback",
+      "digress_out": "allow_all",
+      "previous_sibling": "Reset"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "You can choose size (small, medium, large), type (cheese, margherita, quatro formaggi, or vegetarian) and extra ingredients."
+          ]
+        }
+      },
+      "parent": "Pizza ordering",
+      "metadata": {},
+      "conditions": "#help",
+      "event_name": "generic",
+      "dialog_node": "handler_10_1500495433159"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_16_1501069677090",
+      "context": {
+        "pizza_place": "@pizza_place"
+      },
+      "conditions": "@pizza_place",
+      "event_name": "input",
+      "dialog_node": "handler_17_1501069677090"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1501069677090",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1501069677090",
+      "previous_sibling": "handler_17_1501069677090"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1494704123064",
+      "context": {
+        "pizza_toppings": "@pizza_toppings.values"
+      },
+      "metadata": {},
+      "conditions": "@pizza_toppings.values",
+      "event_name": "input",
+      "dialog_node": "handler_2_1494704151628",
+      "previous_sibling": "handler_3_1494704424215"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "please tell me your name "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1634165555602",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1634165555616",
+      "previous_sibling": "handler_8_1634165555616"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Any extra toppings?"
+      },
+      "parent": "slot_1_1494704123064",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_3_1494704424215"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What size of pizza do you want (small, medium or large)"
+      },
+      "parent": "slot_3_1494421237824",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1494421274527"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "No extra toppings,  O.K."
+          ]
+        }
+      },
+      "parent": "slot_1_1494704123064",
+      "context": {
+        "pizza_toppings": ""
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "@extra_confirmed:no",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1494704594631",
+      "previous_sibling": "handler_4_1500489535722"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_1_1494704123064",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_4_1500489535722",
+      "previous_sibling": "handler_6_1494704751936"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1494421237824",
+      "context": {
+        "pizza_size": "@pizza_size"
+      },
+      "conditions": "@pizza_size",
+      "event_name": "input",
+      "dialog_node": "handler_5_1494421285663",
+      "previous_sibling": "handler_4_1494421274527"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "O.K., adding one extra @toppings"
+          ]
+        }
+      },
+      "parent": "slot_1_1494704123064",
+      "metadata": {},
+      "conditions": "@pizza_toppings.length == 1",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1494704673688",
+      "previous_sibling": "handler_2_1494704151628"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "slot_6_1494421302730",
+      "conditions": "",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1500492489376",
+      "previous_sibling": "handler_8_1494421347721"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "O.K., adding @pizza_toppings.length more toppings to your pizza."
+          ]
+        }
+      },
+      "parent": "slot_1_1494704123064",
+      "metadata": {},
+      "conditions": "@pizza_toppings.length > 1",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1494704751936",
+      "previous_sibling": "handler_5_1494704673688"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What type of pizza do you want? You can build your own starting with cheese, or choose quatro formaggi, margherita, or vegetarian.."
+      },
+      "parent": "slot_6_1494421302730",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1494421336855"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1494421302730",
+      "context": {
+        "pizza_type": "@pizza_type"
+      },
+      "conditions": "@pizza_type",
+      "event_name": "input",
+      "dialog_node": "handler_8_1494421347721",
+      "previous_sibling": "handler_7_1494421336855"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK, which toppings would you like? We have pepperoni, sausage, ham, mushroom, onions, anchovy and olive."
+          ]
+        }
+      },
+      "parent": "slot_1_1494704123064",
+      "metadata": {},
+      "conditions": "@extra_confirmed:yes",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1500493007853",
+      "previous_sibling": "handler_4_1494704594631"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1634165555602",
+      "context": {
+        "names": "@names"
+      },
+      "conditions": "@names",
+      "event_name": "input",
+      "dialog_node": "handler_8_1634165555616"
+    },
+    {
+      "type": "standard",
+      "title": "dinning_locations",
+      "parent": "node_4_1633523638093",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@locations",
+      "dialog_node": "node_1_1633523735340",
+      "previous_sibling": "response_7_1635185922516"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for ordering a $pizza_size $pizza_type pizza with <? $pizza_toppings.join(', ') ?> ."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Pizza ordering",
+      "conditions": " $pizza_toppings && $pizza_toppings.size()>0",
+      "dialog_node": "node_19_1501070902849",
+      "previous_sibling": "node_7_1494705728892"
+    },
+    {
+      "type": "standard",
+      "title": "working_hours",
+      "output": {
+        "generic": [
+          {
+            "title": "Select a dinning location",
+            "options": [
+              {
+                "label": "University Memorial Center",
+                "value": {
+                  "input": {
+                    "text": "University Memorial Center"
+                  }
+                }
+              },
+              {
+                "label": "Center for Community",
+                "value": {
+                  "input": {
+                    "text": "Center for Community"
+                  }
+                }
+              }
+            ],
+            "description": "UC dinning sites",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#working_hours",
+      "user_label": "eating healthy is the key for getting good grades",
+      "dialog_node": "node_4_1633523638093",
+      "previous_sibling": "node_8_1633524437535"
+    },
+    {
+      "type": "frame",
+      "title": "special guest",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello $names, I will send someone over right away"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "dialog_node": "node_4_1634165486437",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for ordering a $pizza_size $pizza_type pizza with <? $pizza_toppings.join(', ') ?> . We'll plan on  <?$pizza_place == 'stay'? 'you eating here.' :  ' you taking this home'?>."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Pizza ordering",
+      "conditions": "$pizza_toppings && $pizza_toppings.size()>0 && $pizza_place",
+      "dialog_node": "node_7_1494705728892",
+      "previous_sibling": "handler_10_1500495433159"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you for ordering a $pizza_size $pizza_type pizza."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Pizza ordering",
+      "dialog_node": "node_8_1494705793073",
+      "previous_sibling": "node_19_1501070902849"
+    },
+    {
+      "type": "standard",
+      "title": "payment",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#payment_type",
+      "dialog_node": "node_8_1633524437535",
+      "previous_sibling": "node_4_1634165486437"
+    },
+    {
+      "type": "frame",
+      "title": "Pizza ordering",
+      "output": {},
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#order",
+      "digress_in": "does_not_return",
+      "dialog_node": "Pizza ordering",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1633523638093",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Reset",
+      "output": {
+        "text": {
+          "values": [
+            "Let's start over."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "pizza_size": null,
+        "pizza_type": null,
+        "pizza_place": null,
+        "pizza_toppings": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#reset",
+      "dialog_node": "Reset",
+      "previous_sibling": "Pizza ordering"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "yes, we take credit cards"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1633524437535",
+      "conditions": "@payment:(credit card)",
+      "dialog_node": "response_10_1633524457814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "5 p.m. to 8 p.m. (dinner) all week"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1633523735340",
+      "conditions": "@locations:C4C",
+      "dialog_node": "response_2_1633523774533",
+      "previous_sibling": "response_9_1633523754766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome to Pizza Topping  Basic demonstration, you can order a pizza out of few selected types and sizes and add selected toppings. What is your name?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "disabled": true,
+      "dialog_node": "response_3_1634141331502"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "unfortunately, we only take credit cards and the Buffone card"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1633524437535",
+      "conditions": "@payment:cash",
+      "dialog_node": "response_4_1633524474071",
+      "previous_sibling": "response_10_1633524457814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Select a dinning location",
+            "options": [
+              {
+                "label": "University Memorial Center",
+                "value": {
+                  "input": {
+                    "text": "University Memorial Center"
+                  }
+                }
+              },
+              {
+                "label": "Center for Community",
+                "value": {
+                  "input": {
+                    "text": "Center for Community"
+                  }
+                }
+              }
+            ],
+            "description": "UC dinning sites",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1633523638093",
+      "disabled": true,
+      "dialog_node": "response_7_1635185922516"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "9 a.m. to 10 p.m. Monday through Saturday"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1633523735340",
+      "conditions": "@locations:UMC",
+      "dialog_node": "response_9_1633523754766"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "not at this time, let me get you an agent"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1633524437535",
+      "conditions": "@payment",
+      "dialog_node": "response_9_1633524510963",
+      "previous_sibling": "response_4_1633524474071"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Pizza ordering",
+      "metadata": {},
+      "variable": "$pizza_toppings",
+      "dialog_node": "slot_1_1494704123064",
+      "previous_sibling": "slot_6_1494421302730"
+    },
+    {
+      "type": "slot",
+      "parent": "Pizza ordering",
+      "variable": "$pizza_place",
+      "dialog_node": "slot_16_1501069677090",
+      "previous_sibling": "slot_1_1494704123064"
+    },
+    {
+      "type": "slot",
+      "parent": "Pizza ordering",
+      "variable": "$pizza_size",
+      "dialog_node": "slot_3_1494421237824",
+      "previous_sibling": "node_8_1494705793073"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Pizza ordering",
+      "variable": "$pizza_type",
+      "dialog_node": "slot_6_1494421302730",
+      "previous_sibling": "slot_3_1494421237824"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1634165486437",
+      "variable": "$names",
+      "dialog_node": "slot_7_1634165555602"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "Welcome to Pizza Topping  Basic demonstration, you can order a pizza out of few selected types and sizes and add selected toppings. You can also ask for help."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "name": "WatsonPizzeria",
+  "language": "en",
+  "description": "pizza ordering w optional topping,  1 attempt to add toppings"
+}
